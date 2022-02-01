@@ -249,7 +249,7 @@ function startGame()
                 BDY.classList.add("BGI");
                 V.style.animation ="none";
                 V.style.display="none";
-                level=10;
+                level="WIN";
                 Pro.classList.remove("animateRun");
                 Pro.classList.add("animateDance");
                 //alert("you win");
