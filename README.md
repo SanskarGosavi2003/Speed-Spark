@@ -17,10 +17,15 @@ The neon board text used  is referenced from "https://codepen.io/GeorgePark/pen/
 To directly access the game visit: "https://sanskargosavi2003.github.io/Speed-Spark/"
 
 The various features and rules of the game are:
+
 1) There are 10 levels. The levels change after every 2 successful jumps.
+
 2)The background gradient changes after every level.
+
 3)Pressing R refreshes the page.
+
 4)Pressing spacebar, S, Up arrow key or W makes the man jumps
+
 5) You can see an innovative dance at the end when you win.
 
 Avoid touching the block to win the game.
