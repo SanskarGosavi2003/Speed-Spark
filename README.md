@@ -16,4 +16,4 @@ The neon board text used  is referenced from "https://codepen.io/GeorgePark/pen/
 
 Jointly made by "Sanskar Gosavi : https://github.com/SanskarGosavi2003" & "Mayank Gupta : https://github.com/Mayank-Gupta11"
 
-To directly acces the game visit: "https://sanskargosavi2003.github.io/Speed-Spark/"
+To directly access the game visit: "https://sanskargosavi2003.github.io/Speed-Spark/"
