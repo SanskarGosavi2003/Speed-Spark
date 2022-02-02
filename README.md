@@ -32,5 +32,10 @@ Avoid touching the block to win the game.
 
 This game is meant to be played only on a desktop browser and not on any mobile device.
 
+For windows: Use zoom as 100% for best results
+For Linux: Use zoom as 125% for best results
+
+We have added another folder for slower systems (RAM <4GB). This game is in the folder "for slower systems". It is without the text animations for a faster run.
+
 Jointly made by "Sanskar Gosavi : https://github.com/SanskarGosavi2003" & "Mayank Gupta : https://github.com/Mayank-Gupta11"
 
