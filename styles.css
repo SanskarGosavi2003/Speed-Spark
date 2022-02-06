@@ -980,3 +980,17 @@
   top:27%;
   left:52%;
 }
+
+#Alterative{
+  position: absolute;
+  height:20px;
+  width:100px;
+  top:10px;
+  left:1200px;
+  color:white;
+  border-radius: 200px;
+  text-align: center;
+  /*background-color: white;*/
+  border:#FFCDA3 solid 4px;
+  font-weight: bold;
+}
