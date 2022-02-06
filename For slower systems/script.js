@@ -111,7 +111,6 @@ document.addEventListener('keydown', keyDownHandler, false);
         {
             startGame();
         }
-
         Pro.classList.add("animateRun");
     }          
 //var B=document.getElementById("JUMP");
@@ -122,8 +121,8 @@ function startGame()
     var someVarKey=0;
     Pro.classList.add("animateRun");
     //Pro2.classList.add("animateRun");
-    var R=document.getElementById("rules");
-    R.classList.add("fadingEffect");
+    var j=window.sessionStorage.getItem("someVarKey");
+    
    
     //var ProTop=parseInt(window.getComputedStyle(Pro).getPropertyValue("top"));//window.getComputedStyle(Pro) will return an object with all the properties of pro in string and so we used parseint to convert thee string to integer
     //var VLeft=parseInt(window.getComputedStyle(V).getPropertyValue("left"));
@@ -249,7 +248,7 @@ function startGame()
                 BDY.classList.add("BGI");
                 V.style.animation ="none";
                 V.style.display="none";
-                level="WIN";
+                level=10;
                 Pro.classList.remove("animateRun");
                 Pro.classList.add("animateDance");
                 //alert("you win");
@@ -257,7 +256,12 @@ function startGame()
         }  
         document.getElementById("LVL").innerHTML=level;
             document.getElementById("score").innerHTML=i;
-        
+        if(i>j)
+        {
+            j=i;
+            sessionStorage.setItem(someVarkey,j);
+        }
+        document.getElementById("best_score").innerHTML=j;
         if(VLeft<=360 && VLeft>=300 && ProTop>=220){
             V.style.animation ="none";
             V.style.display="none";
